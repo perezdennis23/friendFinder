@@ -1,10 +1,9 @@
-//array that holds all the 'friends' that have taken the survey
-//initialize starting with 'dummy' data
+
 var friends = [
-    // Steve
+
     {
-        "name":"Steve Reader",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNUqauBrDS7DaXPYxw",
+        "name":"Bruce Wayne",
+        "photo":"https://www.forbes.com/lists/fictional15/2011/profile/bruce-wayne.html",
         "scores":[
             5,
             1,
@@ -18,10 +17,10 @@ var friends = [
             1
         ]
         },
-    // Bob
+    
     {
-        "name":"Bob Johnson",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNgtNSUvQfJweBug8A",
+        "name":"Pee Wee Herman",
+        "photo":"https://en.wikipedia.org/wiki/Pee-wee_Herman",
         "scores":[
             4,
             3,
@@ -35,10 +34,10 @@ var friends = [
             1
         ]
     },      
-    // Mike  
+      
     {
-        "name":"Mike Toland",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNgxm_aDwwT0gghwRQ",
+        "name":"Just Ryu",
+        "photo":"https://en.wikipedia.org/wiki/Ryu_(Street_Fighter)",
         "scores":[
             5,
             1,
@@ -52,10 +51,10 @@ var friends = [
             1
         ]
     },
-    // John
+    
     {
-        "name":"John Reader",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"Mr Bean",
+        "photo":"https://en.wikipedia.org/wiki/Mr._Bean_(character)",
         "scores":[
             3,
             4,
@@ -69,10 +68,10 @@ var friends = [
             1
         ]
     },     
-    // Gary   
+       
     {
-        "name":"Gary Porter",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNgs6ydnbni8C0aglg",
+        "name":"The Hamburgler",
+        "photo":"https://mcdonalds.fandom.com/wiki/Hamburglar",
         "scores":[
             4,
             1,
@@ -86,10 +85,10 @@ var friends = [
             1
         ]
     },
-    // Doug
+    
     {
-        "name":"Doug Merrell",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNgyAqzivPVwEQgcTA",
+        "name":"Doug Funnie",
+        "photo":"https://doug.fandom.com/wiki/Doug_Funnie",
         "scores":[
             5,
             5,
@@ -103,10 +102,10 @@ var friends = [
             1
         ]
     },      
-    // Erik  
+      
     {
-        "name":"Erik Blum",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNg1hikHApk0Ftneug",
+        "name":"Steve Urkel",
+        "photo":"https://en.wikipedia.org/wiki/Steve_Urkel",
         "scores":[
             5,
             4,
@@ -120,10 +119,10 @@ var friends = [
             4
         ]
     },
-    // Ryan
+    
     {
-        "name":"Ryan Loveless",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNg6Wo8cNy5DaSS2xA",
+        "name":"Remy LeBeau",
+        "photo":"https://en.wikipedia.org/wiki/Gambit_(comics)",
         "scores":[
             1,
             1,
@@ -137,10 +136,10 @@ var friends = [
             1
         ]
     },      
-    // Nate  
+      
     {
-        "name":"Nate Williams",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNg5bjxXCJgiIuKlQw",
+        "name":"Fox Mulder",
+        "photo":"https://en.wikipedia.org/wiki/Fox_Mulder",
         "scores":[
             5,
             1,
@@ -154,10 +153,10 @@ var friends = [
             1
         ]
     },
-    // Jacob
+   
     {
-        "name":"Jacob Schaugaard",
-        "photo":"https://1drv.ms/i/s!AneOheT2fviYhNg4nej6ZSTgOyOTfg",
+        "name":"Aragorn son of Arathorn",
+        "photo":"https://en.wikipedia.org/wiki/Aragorn",
         "scores":[
             3,
             1,
