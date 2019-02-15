@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ei-sc-facebook.svg/768px-Ei-sc-facebook.svg.png">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Survey Questions<i aria-hidden="true"></i></h1>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Answer the questions that best describe you.</h2>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Name (Required)</h4>
+                        <input type="text" name="" id="name" class="form-control" required>
+                        <h4>Link to Photo Image (Required)</h4>
+                        <input type="text" name="" id="photo" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3><strong>Question 1</strong></h3>
+                    <h4>You see yourself as outgoing and up for adventure.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q1">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 2</strong></h3>
+                    <h4>You think of yourself as a "no-nonsense" kind of person.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q2">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 3</strong></h3>
+                    <h4>You see yourself as very organized and self controlled.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q3">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 4</strong></h3>
+                    <h4>You see yourself as an overthinker and worry about every detail.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q4">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 5</strong></h3>
+                    <h4>You see yourself as open to whatever comes your way. Making the best of a situation.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q5">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 6</strong></h3>
+                    <h4>You see yourself as timid and quiet.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q6">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 7</strong></h3>
+                    <h4>You are able to take others' perspectives and empathize with them easily.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q7">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 8</strong></h3>
+                    <h4>You thrive in organized chaos (and that's ok!).</h4>
+                    <select data-placeholder="" class="chosen-select" id="q8">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 9</strong></h3>
+                    <h4>You are able to sleep on decisions before making them.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q9">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                    <h3><strong>Question 10</strong></h3>
+                    <h4>You try to get to the point with any of the extra.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q10">
+                        <option value=""></option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2 </option>
+                        <option value=3>3 </option>
+                        <option value=4>4 </option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block submit" id="myBtn"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="api/friends">API Friends List</a><span> | </span><a href="https://github.com/ljreader/FriendFinder" target="_blank" class="text-center" id="git">Github Repo</a>
+        </footer>
+    </div>
+</body>
+
+<script type="text/javascript">
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      function survey() {
+            var survey = [];
+            for (i = 1; i <= 10; i++) {
+                var answer = parseInt($("#q" + i).val().trim());
+                if (answer == NaN) {
+                    modal.style.display = "none";
+                    return;
+                }
+                survey.push(answer);
+            };
+            return survey;
+        };
+
+        var answers = {
+            name: $("#name").val().trim(),
+            photoURL: $("#photo").val().trim(),
+            scores: survey()
+        };
+
+        $.post("api/friends", answers, function(data) {
+                $(".nameModal").text(data.name);
+                $(".modalPhoto").attr("src", data.photo);
+                $(".modalPhoto").attr("height", '400px');
+                $(".modalPhoto").attr("width", '400px');
+            });
+
+            $('#name').val("");
+            $('#photo').val("");
+            for (i = 1; i <= 10; i++) {
+                $('#q' + i).val("");
+            }
+    });
+</script>
+<style>
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<style type="text/css">
+.jumbotron {
+    background-color: #4267b2;
+    color: whitesmoke;
+}
+
+hr {
+    border-top: 2px solid whitesmoke;
+}
+
+.feature-wrapper {
+    border-radius: 5px;
+    background-color: #e9ebee;
+    margin-bottom: 40px;
+}
+
+.row {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    margin: 20px 0;
+    padding: 10px 35px;
+    overflow: hidden;
+}
+
+#photo {
+    margin-bottom: 40px;
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+</style>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class='nameModal'>Make sure you have submited all answers.</h2>
+        <img src="" class='modalPhoto'>
+    </div>
+</div>
+<script>
+var modal = document.getElementById('myModal');
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</html>
+
